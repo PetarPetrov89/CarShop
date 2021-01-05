@@ -1,0 +1,15 @@
+D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.csprojAssemblyReference.cache
+D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.Properties.Resources.resources
+D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.csproj.GenerateResource.cache
+D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.csproj.CoreCompileInputs.cache
+D:\NetIT\CarShop\CarShop\CarShop\bin\Debug\CarShop.exe.config
+D:\NetIT\CarShop\CarShop\CarShop\bin\Debug\CarShop.exe
+D:\NetIT\CarShop\CarShop\CarShop\bin\Debug\CarShop.pdb
+D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.exe
+D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.pdb
+D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.MainForm.resources
+D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.LoginForm.resources
+D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.ShopForm.resources
+D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.Specifications.resources
+D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.Tires.resources
+D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.ClientsForm.resources
