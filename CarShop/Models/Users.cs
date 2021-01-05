@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using CarShop.Services;
 
 namespace CarShop.Models
-{
+{    
     public class Users : IUser
     {
         private string _username;
@@ -21,9 +21,7 @@ namespace CarShop.Models
         {
             get { return _password; }
             set { _password = value; }
-        }
-
-        
+        }     
 
     }
 }

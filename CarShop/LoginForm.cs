@@ -73,15 +73,15 @@ namespace CarShop
         public static List<IUser> AddSimpleData()
         {
 
-        List<IUser> output = new List<IUser>();
+        List<IUser> input = new List<IUser>();
             
             // Add users to the list.
-            output.Add(new Users() { UserName = "user1", Password = "1234" });
-            output.Add(new Users() { UserName = "user2", Password = "2345" });
-            output.Add(new Users() { UserName = "user3", Password = "3456" });
-            output.Add(new Users() { UserName = "Toni", Password = "deche" });
+            input.Add(new Users() { UserName = "user1", Password = "1234" });
+            input.Add(new Users() { UserName = "user2", Password = "2345" });
+            input.Add(new Users() { UserName = "user3", Password = "3456" });
+
             
-            return output;
+            return input;
         }
     }
 }

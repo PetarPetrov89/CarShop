@@ -10,6 +10,5 @@ namespace CarShop.Services
     public interface IComands
     {
         void Back();
-
     }
 }
