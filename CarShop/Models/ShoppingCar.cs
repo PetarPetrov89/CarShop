@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CarShop.Models
 {
-    public class ShoppingCars
+    public class ShoppingCar
     {
-        public List<Cars> Cars { get; set; } = new List<Cars>();
+        public List<Car> Cars { get; set; } = new List<Car>();
                
 
         public decimal SumOfAllCars { get => Cars.Sum(p => p.Sum); }

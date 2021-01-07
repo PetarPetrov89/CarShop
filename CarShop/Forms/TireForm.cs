@@ -12,9 +12,9 @@ using CarShop.Services;
 
 namespace CarShop
 {
-    public partial class Tires : Form, IComands
+    public partial class TireForm : Form, IComands
     {
-        public Tires()
+        public TireForm()
         {
             InitializeComponent();
         }

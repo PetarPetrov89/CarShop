@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarShop.Models
 {
-    public class Clients
+    public class Client
     {
         private int _id;
         private string _name;

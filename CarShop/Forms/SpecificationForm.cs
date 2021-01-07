@@ -11,9 +11,9 @@ using CarShop.Services;
 
 namespace CarShop
 {
-    public partial class Specifications : Form, IComands
+    public partial class SpecificationForm : Form, IComands
     {
-        public Specifications()
+        public SpecificationForm()
         {
             InitializeComponent();
         }

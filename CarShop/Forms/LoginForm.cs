@@ -76,9 +76,9 @@ namespace CarShop
         List<IUser> input = new List<IUser>();
             
             // Add users to the list.
-            input.Add(new Users() { UserName = "user1", Password = "1234" });
-            input.Add(new Users() { UserName = "user2", Password = "2345" });
-            input.Add(new Users() { UserName = "user3", Password = "3456" });
+            input.Add(new User() { UserName = "user1", Password = "1234" });
+            input.Add(new User() { UserName = "user2", Password = "2345" });
+            input.Add(new User() { UserName = "user3", Password = "3456" });
 
             
             return input;

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CarShop.Models
 {
     // Class Cars
-    public class Cars
+    public class Car
     {
 
 
@@ -44,32 +44,32 @@ namespace CarShop.Models
         {
             get => Price * (decimal)Qty;
         }
-        public static List<Cars> GetCars()
+        public static List<Car> GetCars()
         {
-            return new List<Cars>()
+            return new List<Car>()
             {
-                new Cars()
+                new Car()
                 {
                     Brand = "Mercedes",
                     Model = "ML350",
                     Price = 12500,
                     Qty = 0
                 },
-                 new Cars()
+                 new Car()
                 {
                     Brand = "BMW",
                     Model = "X5",
                     Price = 10000,
                     Qty = 0
                 },
-                  new Cars()
+                  new Car()
                 {
                     Brand = "Toyota",
                     Model = "Rav 4",
                     Price = 8000,
                     Qty = 0
                 },
-                   new Cars()
+                   new Car()
                 {
                     Brand = "Dacia",
                     Model = "Duster",

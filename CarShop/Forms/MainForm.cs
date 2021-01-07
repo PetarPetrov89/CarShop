@@ -26,14 +26,14 @@ namespace CarShop
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Specifications sp1 = new Specifications();
+            SpecificationForm sp1 = new SpecificationForm();
             sp1.Show();
             this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Tires tr = new Tires();
+            TireForm tr = new TireForm();
             tr.Show();
             this.Hide();
         }

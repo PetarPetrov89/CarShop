@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CarShop
 {
-    public partial class ClientsForm : Form
+    public partial class ClientForm : Form
     {
-        public ClientsForm()
+        public ClientForm()
         {
             InitializeComponent();
         }

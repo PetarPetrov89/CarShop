@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace CarShop.Models
 {
-    public class CarTires
+    public class Tire
     {
         //Default Constuctor
-        public CarTires()
+        public Tire()
         {
             winterTiresMercedes = 0.0;
             summerTiresMercedes = 0.0;
@@ -20,7 +20,7 @@ namespace CarShop.Models
             winterTiresDacia = 0.0;
             summerTiresDacia = 0.0;            
         }
-        public CarTires(double wintertiresMercedes, double summertiresMercedes, double wintertiresBMW, double summertiresBMW, double wintertiresToyota, double summertiresToyota,
+        public Tire(double wintertiresMercedes, double summertiresMercedes, double wintertiresBMW, double summertiresBMW, double wintertiresToyota, double summertiresToyota,
             double wintertiresDacia, double summertiresDacia)
         {
             //Tires

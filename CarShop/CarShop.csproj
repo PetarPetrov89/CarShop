@@ -46,65 +46,65 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClientsForm.cs">
+    <Compile Include="Forms\ClientForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ClientsForm.Designer.cs">
-      <DependentUpon>ClientsForm.cs</DependentUpon>
+    <Compile Include="Forms\ClientForm.Designer.cs">
+      <DependentUpon>ClientForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginForm.cs">
+    <Compile Include="Forms\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginForm.Designer.cs">
+    <Compile Include="Forms\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\Clients.cs" />
+    <Compile Include="Models\Client.cs" />
     <Compile Include="Models\ShoppingWarrantly.cs" />
-    <Compile Include="Models\CarTires.cs" />
+    <Compile Include="Models\Tire.cs" />
     <Compile Include="Services\IUser.cs" />
-    <Compile Include="ShopForm.cs">
+    <Compile Include="Forms\ShopForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ShopForm.Designer.cs">
+    <Compile Include="Forms\ShopForm.Designer.cs">
       <DependentUpon>ShopForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm.cs">
+    <Compile Include="Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="Forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\Cars.cs" />
-    <Compile Include="Models\ShoppingCars.cs" />
-    <Compile Include="Models\Users.cs" />
+    <Compile Include="Models\Car.cs" />
+    <Compile Include="Models\ShoppingCar.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Models\Warranty.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ICars.cs" />
     <Compile Include="Services\IComands.cs" />
     <Compile Include="Services\IWarantly.cs" />
-    <Compile Include="Specifications.cs">
+    <Compile Include="Forms\SpecificationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Specifications.Designer.cs">
-      <DependentUpon>Specifications.cs</DependentUpon>
+    <Compile Include="Forms\SpecificationForm.Designer.cs">
+      <DependentUpon>SpecificationForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tires.cs">
+    <Compile Include="Forms\TireForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tires.Designer.cs">
-      <DependentUpon>Tires.cs</DependentUpon>
+    <Compile Include="Forms\TireForm.Designer.cs">
+      <DependentUpon>TireForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ClientsForm.resx">
-      <DependentUpon>ClientsForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\ClientForm.resx">
+      <DependentUpon>ClientForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginForm.resx">
+    <EmbeddedResource Include="Forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ShopForm.resx">
+    <EmbeddedResource Include="Forms\ShopForm.resx">
       <DependentUpon>ShopForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -117,11 +117,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Specifications.resx">
-      <DependentUpon>Specifications.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\SpecificationForm.resx">
+      <DependentUpon>SpecificationForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tires.resx">
-      <DependentUpon>Tires.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\TireForm.resx">
+      <DependentUpon>TireForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

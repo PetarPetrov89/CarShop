@@ -15,7 +15,7 @@ namespace CarShop
     public partial class ShopForm : Form, IComands
     {
 
-        public ShoppingCars shoppingCars = new ShoppingCars();
+        public ShoppingCar shoppingCars = new ShoppingCar();
         public ShoppingWarrantly shoppingWarrantly = new ShoppingWarrantly();
 
         public BindingSource bindingSourceForShoppingCars = new BindingSource();
@@ -33,7 +33,7 @@ namespace CarShop
         }
         private void SetDataSource()
         {
-            bindingSourceForCars.DataSource = Cars.GetCars();
+            bindingSourceForCars.DataSource = Car.GetCars();
             DataGridView1.DataSource = bindingSourceForCars;
 
             bindingSourceForWarrantly.DataSource = Warranty.GetWarantly();
@@ -188,9 +188,9 @@ namespace CarShop
             }
         }      
 
-        private void AddCarsToShopping(Cars cars)
+        private void AddCarsToShopping(Car cars)
         {
-            Cars carsToAdd = new Cars()
+            Car carsToAdd = new Car()
             {
                 Brand = cars.Brand,
                 Model= cars. Model,
@@ -216,7 +216,7 @@ namespace CarShop
         {
             var view = sender as DataGridView;
 
-            Cars cars = (Cars)view.CurrentRow.DataBoundItem;
+            Car cars = (Car)view.CurrentRow.DataBoundItem;
 
             if (cars.Qty > 0)
             {
