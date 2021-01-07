@@ -12,15 +12,20 @@ namespace CarShop.Models
         private string _username;
         private string _password;
 
+        public User(string username, string password)
+        {
+            _username = username;
+            _password = password;
+        }
         public string UserName
         {
             get { return _username; }
-            set { _username = value; }
+            private set { _username = value; }
         }        
         public string Password
         {
             get { return _password; }
-            set { _password = value; }
+            private set { _password = value; }
         }     
 
     }
