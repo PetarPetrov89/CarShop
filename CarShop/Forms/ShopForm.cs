@@ -12,7 +12,7 @@ using CarShop.Services;
 
 namespace CarShop
 {
-    public partial class ShopForm : Form, IComands
+    public partial class ShopForm : Form, IComandsService
     {
 
         public ShoppingCar shoppingCars = new ShoppingCar();
@@ -362,6 +362,20 @@ namespace CarShop
         public OpenFileDialog OpenFile(OpenFileDialog openFile)
         {
             throw new NotImplementedException();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            TireForm tr = new TireForm();
+            tr.Show();
+            this.Hide();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            AddClientForm enter = new AddClientForm();
+            enter.Show();
+            this.Hide();
         }
     }
 }

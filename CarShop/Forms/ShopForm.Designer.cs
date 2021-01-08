@@ -41,6 +41,8 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataWarantly)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataReceipt)).BeginInit();
@@ -55,13 +57,13 @@
             this.DataGridView1.Name = "DataGridView1";
             this.DataGridView1.RowHeadersWidth = 51;
             this.DataGridView1.RowTemplate.Height = 24;
-            this.DataGridView1.Size = new System.Drawing.Size(1511, 549);
+            this.DataGridView1.Size = new System.Drawing.Size(1511, 559);
             this.DataGridView1.TabIndex = 1;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(508, 498);
+            this.button1.Location = new System.Drawing.Point(321, 500);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(160, 53);
             this.button1.TabIndex = 2;
@@ -153,7 +155,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.Location = new System.Drawing.Point(0, 497);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(443, 53);
+            this.button2.Size = new System.Drawing.Size(267, 53);
             this.button2.TabIndex = 12;
             this.button2.Text = "Calculate SUM";
             this.button2.UseVisualStyleBackColor = false;
@@ -220,9 +222,9 @@
             // 
             this.button7.BackColor = System.Drawing.Color.Lime;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button7.Location = new System.Drawing.Point(1056, 491);
+            this.button7.Location = new System.Drawing.Point(1256, 491);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(443, 53);
+            this.button7.Size = new System.Drawing.Size(243, 53);
             this.button7.TabIndex = 20;
             this.button7.Text = "Calculate SUM";
             this.button7.UseVisualStyleBackColor = false;
@@ -250,7 +252,7 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.Location = new System.Drawing.Point(861, 498);
+            this.button4.Location = new System.Drawing.Point(1048, 500);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(160, 53);
             this.button4.TabIndex = 23;
@@ -258,12 +260,36 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button8.Location = new System.Drawing.Point(487, 500);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(181, 53);
+            this.button8.TabIndex = 24;
+            this.button8.Text = "Add Client";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button9
+            // 
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button9.Location = new System.Drawing.Point(861, 500);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(181, 53);
+            this.button9.TabIndex = 25;
+            this.button9.Text = "Add Tires";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
             // ShopForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(1511, 553);
+            this.ClientSize = new System.Drawing.Size(1511, 562);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button8);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox4);
@@ -314,5 +340,7 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
     }
 }

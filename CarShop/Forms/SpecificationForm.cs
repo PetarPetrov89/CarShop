@@ -11,7 +11,7 @@ using CarShop.Services;
 
 namespace CarShop
 {
-    public partial class SpecificationForm : Form, IComands
+    public partial class SpecificationForm : Form, IComandsService
     {
         public SpecificationForm()
         {

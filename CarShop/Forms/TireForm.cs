@@ -12,7 +12,7 @@ using CarShop.Services;
 
 namespace CarShop
 {
-    public partial class TireForm : Form, IComands
+    public partial class TireForm : Form, IComandsService
     {
         public TireForm()
         {
@@ -266,10 +266,10 @@ namespace CarShop
 
         private void button4_Click(object sender, EventArgs e)
         {
-            ((IComands)this).Back();
+            ((IComandsService)this).Back();
         }
 
-        void IComands.Back()
+        void IComandsService.Back()
         {
             MainForm b = new MainForm();
             b.Show();

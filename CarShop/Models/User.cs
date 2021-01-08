@@ -7,7 +7,7 @@ using CarShop.Services;
 
 namespace CarShop.Models
 {    
-    public class User : IUser
+    public class User
     {
         private string _username;
         private string _password;

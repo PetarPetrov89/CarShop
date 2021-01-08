@@ -10,6 +10,9 @@ D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.pdb
 D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.MainForm.resources
 D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.LoginForm.resources
 D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.ShopForm.resources
-D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.ClientForm.resources
 D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.SpecificationForm.resources
 D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.TireForm.resources
+D:\NetIT\CarShop\CarShop\CarShop\bin\Debug\CarShopDatabase.mdf
+D:\NetIT\CarShop\CarShop\CarShop\bin\Debug\CarShopDatabase_log.ldf
+D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.AddClientForm.resources
+D:\NetIT\CarShop\CarShop\CarShop\obj\Debug\CarShop.Forms.ClientsForm.resources

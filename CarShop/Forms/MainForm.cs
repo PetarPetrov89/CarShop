@@ -49,5 +49,12 @@ namespace CarShop
         {
             Application.Exit();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AddClientForm enter = new AddClientForm();
+            enter.Show();
+            this.Hide();
+        }
     }
 }

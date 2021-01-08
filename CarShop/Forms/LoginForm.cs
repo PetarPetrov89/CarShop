@@ -14,7 +14,7 @@ using CarShop.Services;
 namespace CarShop
 {
     
-    public partial class LoginForm : Form, IUser
+    public partial class LoginForm : Form
     {
         public LoginForm()
         {
@@ -23,13 +23,8 @@ namespace CarShop
         }
 
         List<string> users = new List<string>();
-        List<string> pass = new List<string>();
-        List<IUser> login = AddSimpleData();
-
-        string IUser.UserName { get; }
-
-        public string Password { get; }
-
+        List<string> pass = new List<string>();   
+                                
         private void button1_Click(object sender, EventArgs e)
         {
                   if (users.Contains(textBox1.Text) && pass.Contains(textBox2.Text) && Array.IndexOf(users.ToArray(), textBox1.Text) == Array.IndexOf(pass.ToArray(), textBox2.Text))
@@ -68,20 +63,6 @@ namespace CarShop
             MainForm main = new MainForm();
             main.Show();
             this.Hide();
-        }
-
-        public static List<IUser> AddSimpleData()
-        {
-
-        List<IUser> input = new List<IUser>();
-            
-            // Add users to the list.
-            input.Add(new User() { UserName = "user1", Password = "1234" });
-            input.Add(new User() { UserName = "user2", Password = "2345" });
-            input.Add(new User() { UserName = "user3", Password = "3456" });
-
-            
-            return input;
-        }
+        }        
     }
 }

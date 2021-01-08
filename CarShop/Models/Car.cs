@@ -9,8 +9,6 @@ namespace CarShop.Models
     // Class Cars
     public class Car
     {
-
-
         private string _model;
         private decimal _price;
         private string _brand;
