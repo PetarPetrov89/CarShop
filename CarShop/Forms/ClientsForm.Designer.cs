@@ -109,7 +109,7 @@
             this.clientsBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.clientsBindingNavigator.Name = "clientsBindingNavigator";
             this.clientsBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.clientsBindingNavigator.Size = new System.Drawing.Size(1489, 27);
+            this.clientsBindingNavigator.Size = new System.Drawing.Size(1489, 31);
             this.clientsBindingNavigator.TabIndex = 0;
             this.clientsBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -119,7 +119,7 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 28);
             this.bindingNavigatorAddNewItem.Text = "Add new";
             // 
             // bindingNavigatorCountItem
@@ -245,6 +245,7 @@
             this.dataGridViewTextBoxColumn1.HeaderText = "Id";
             this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
             this.dataGridViewTextBoxColumn1.Width = 50;
             // 
             // dataGridViewTextBoxColumn2
@@ -261,6 +262,7 @@
             this.dataGridViewTextBoxColumn3.HeaderText = "Bulstat";
             this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
             this.dataGridViewTextBoxColumn3.Width = 125;
             // 
             // dataGridViewTextBoxColumn4

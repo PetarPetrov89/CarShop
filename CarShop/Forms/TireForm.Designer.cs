@@ -442,7 +442,7 @@
             // 
             this.printDialog1.UseEXDialog = true;
             // 
-            // Tires
+            // TireForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -455,8 +455,8 @@
             this.Controls.Add(this.rtfReceipt);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "Tires";
-            this.Text = "Tires";
+            this.Name = "TireForm";
+            this.Text = "+-";
             this.Load += new System.EventHandler(this.Tires_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
