@@ -31,6 +31,7 @@ namespace CarShop
             SetDataSource();
             SetDataBindings();
         }
+        //This method take the information.
         private void SetDataSource()
         {
             bindingSourceForCars.DataSource = Car.GetCars();
@@ -53,6 +54,7 @@ namespace CarShop
             dataReceipt.AutoGenerateColumns = false;
             dataGridView2.AutoGenerateColumns = false;
         }
+        //This code create the table.
         private void SetGridColumns()
         {
 
@@ -169,12 +171,13 @@ namespace CarShop
             col.ReadOnly = false;
             dataGridView2.Columns.Add(col);
         }
+        //This code sum values from tables.
         private void SetDataBindings()
         {
             ClearDataBindings(this);
 
             textBox2.Text = string.Format("{0:C}", shoppingCars.SumOfAllCars);
-            //textBox1.Text = string.Format("{0:C}", CashBox);
+            
             textBox3.Text = string.Format("{0:C}", shoppingWarrantly.SumOfAllWarrantly);
         }
 
@@ -240,11 +243,8 @@ namespace CarShop
 
         private void button3_Click(object sender, EventArgs e)
         {
-            CashBox += shoppingCars.SumOfAllCars;
-           
-            SetDataBindings();
-
-            ClearShoppingCars();
+            LoginForm log = new LoginForm();
+            log.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -258,7 +258,7 @@ namespace CarShop
             main.Show();
             this.Hide();
         }
-
+        //Add the option to select the wanted item via checkbox.
         private void ShopForm_Load(object sender, EventArgs e)
         {
             DataGridViewCheckBoxColumn chkbox = new DataGridViewCheckBoxColumn();
@@ -275,7 +275,7 @@ namespace CarShop
             chk.DefaultCellStyle.BackColor = Color.Blue;
             DataGridView1.Columns.Insert(0, chk);
         }
-
+        //Add the warrantly in cart.
         private void button5_Click(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
@@ -297,7 +297,7 @@ namespace CarShop
             }
 
         }
-
+        //Add cars to cart.
         private void button6_Click(object sender, EventArgs e)
         {
             DataTable cars = new DataTable();
@@ -320,7 +320,7 @@ namespace CarShop
                 dataReceipt.DataSource = cars;
             }
         }
-
+        //Calculate the amounts of all selected cars.
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             int sum = 0;
@@ -330,7 +330,7 @@ namespace CarShop
             }
             textBox2.Text = sum.ToString();
         }
-
+        //Calculate the amounts of all selected warrantly.
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
             int sumw = 0;
@@ -345,6 +345,7 @@ namespace CarShop
         {
             SetDataBindings();
         }
+        //Total amount.
         private void label4_Click(object sender, EventArgs e)
         {
             double x1, y1, z;

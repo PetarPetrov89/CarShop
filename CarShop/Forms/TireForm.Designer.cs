@@ -456,7 +456,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "TireForm";
-            this.Text = "+-";
+            this.Text = "TiresForm";
             this.Load += new System.EventHandler(this.Tires_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

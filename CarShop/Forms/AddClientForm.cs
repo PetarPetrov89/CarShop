@@ -28,7 +28,7 @@ namespace CarShop
 
         private void ClientForm_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'clientsDataSet.Clients' table. You can move, or remove it, as needed.
+            //This line of code loads data into the 'clientsDataSet.Clients' table. You can move, or remove it, as needed.
             this.clientsTableAdapter.Fill(this.clientsDataSet.Clients);
 
         }

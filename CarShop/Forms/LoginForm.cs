@@ -24,7 +24,8 @@ namespace CarShop
 
         List<string> users = new List<string>();
         List<string> pass = new List<string>();   
-                                
+        
+        //Checking user and password.
         private void button1_Click(object sender, EventArgs e)
         {
                   if (users.Contains(textBox1.Text) && pass.Contains(textBox2.Text) && Array.IndexOf(users.ToArray(), textBox1.Text) == Array.IndexOf(pass.ToArray(), textBox2.Text))
@@ -40,6 +41,7 @@ namespace CarShop
 
 
         }
+        //Reading from text file.
         private void Form1_Load(object sender, EventArgs e)
         {
             StreamReader sr = new StreamReader("users.txt");

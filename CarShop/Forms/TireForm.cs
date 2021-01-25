@@ -41,7 +41,7 @@ namespace CarShop
             checkBox7.Checked = false;
             checkBox8.Checked = false;
         }
-
+        //Defaut values in TireForm.
         private void Tires_Load(object sender, EventArgs e)
         {
             lblData.Text = DateTime.Now.ToLongDateString();
@@ -215,7 +215,7 @@ namespace CarShop
             textBox8.Text = "";
             textBox8.Focus();
         }
-
+        //Prices of the tires.
         private void button1_Click(object sender, EventArgs e)
         {       
 
@@ -241,7 +241,7 @@ namespace CarShop
             textBox9.Text = String.Format("{0:C}", ((pricewintermercedes * wintertiresMercedes) + (pricewinterbmw * wintertiresBMW) + (pricewintertoyota * wintertiresToyota) + (pricewinterdacia * wintertiresDacia)
                 + (pricesummermercedes * summertiresMercedes) + (pricesummerbmw * summertiresBMW) + (pricesummertoyota * summertiresToyota) + pricesummerdacia * summertiresDacia), "лв");
         }
-
+        //Generate receipt.
         private void button2_Click(object sender, EventArgs e)
         {
             rtfReceipt.Clear();
@@ -275,12 +275,12 @@ namespace CarShop
             b.Show();
             this.Hide();
         }
-
+        //New file.
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
             rtfReceipt.Clear();
         }
-
+        //Open file.
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFile = new OpenFileDialog();
@@ -290,7 +290,7 @@ namespace CarShop
             if (openFile.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                 rtfReceipt.LoadFile(openFile.FileName, RichTextBoxStreamType.PlainText);
         }
-
+        //Save file.
         private void toolStripButton3_Click(object sender, EventArgs e)
         {
             SaveFileDialog saveFile = new SaveFileDialog();
@@ -308,6 +308,7 @@ namespace CarShop
         {
             e.Graphics.DrawString(rtfReceipt.Text, new Font("Arial", 14, FontStyle.Regular), Brushes.Black, 120, 120);
         }
+        //Print file.
         private void toolStripButton4_Click(object sender, EventArgs e)
         {
             printDialog1.Document = printDocument1;
